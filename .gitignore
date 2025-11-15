@@ -4,8 +4,30 @@ __pycache__/
 build/
 dist/
 wheels/
+pip-wheel-metadata/
 *.egg-info
 
-# Virtual environments
-.venv/
+# Test & coverage artifacts
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+
+# Tool caches
 .uv-cache/
+.uv/
+
+# Virtual environments & local config
+.venv/
+.env
+.env.*
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace

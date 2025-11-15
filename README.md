@@ -23,7 +23,7 @@ UV_CACHE_DIR=$PWD/.uv-cache uv sync
 ### Run the CLI demo
 
 ```bash
-UV_CACHE_DIR=$PWD/.uv-cache uv run mcp
+UV_CACHE_DIR=$PWD/.uv-cache uv run mcp-demo
 ```
 
 The script prints four sections:
@@ -37,4 +37,6 @@ The script prints four sections:
    - `word_count` (quick payload sizing helper)
 
 Use the sample as a base for building a real MCP server by replacing or expanding
-the toy tools with your own handlers.
+the toy tools with your own handlers. The `mcp` binary bundled with
+`mcp[cli]` remains available for running actual MCP servers/clients—our demo
+script was renamed to `mcp-demo` to avoid conflicts.

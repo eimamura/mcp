@@ -1,0 +1,3 @@
+- Purpose: minimal Python CLI package scaffolded with uv; entrypoint `mcp:main` just prints a "Hello from mcp!" message.
+- Tech stack: Python 3.12, uv for dependency/build management (uv_build backend); standard src-layout with package `mcp`.
+- Structure: `pyproject.toml`, `README.md`, `.python-version`, `.gitignore`; `src/mcp/__init__.py` containing `main()`; uv lockfile; `.venv` created when running `uv run`.

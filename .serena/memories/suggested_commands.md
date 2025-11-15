@@ -1,0 +1,4 @@
+- `UV_CACHE_DIR=$PWD/.uv-cache uv run mcp` — install deps if needed and run the CLI entrypoint (prints "Hello from mcp!").
+- `UV_CACHE_DIR=$PWD/.uv-cache uv sync` — create/update the local `.venv` with locked dependencies.
+- `UV_CACHE_DIR=$PWD/.uv-cache uv pip list` — inspect installed packages inside the uv-managed environment.
+- `git status -sb` — check repo status before/after edits.

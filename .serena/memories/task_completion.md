@@ -1,0 +1,3 @@
+- Run `UV_CACHE_DIR=$PWD/.uv-cache uv run mcp` to ensure the CLI still executes and prints the greeting.
+- Review `git status -sb` to confirm only intended files are staged/modified.
+- No automated tests/linters exist yet; mention any manual verification performed when reporting back.

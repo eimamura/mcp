@@ -1,0 +1,3 @@
+- Uses standard Python type hints (`def main() -> None`) and simple print-based CLI entrypoint; no other conventions evident yet.
+- Keep code minimal, idiomatic, and CLI-friendly; align with uv's src-layout packaging (`src/mcp`).
+- No formatting/lint configs committed; default to conventional Python style (PEP 8) until tools are added.
